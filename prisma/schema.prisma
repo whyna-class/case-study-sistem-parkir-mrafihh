@@ -20,7 +20,7 @@ enum jenisKendaraan {
 
 model Parkir {
   id               Int            @id @default(autoincrement())
-  platNomor        String
+  platNomor        String         
   jenisKendaraan   jenisKendaraan
   durasi           Int
   total            Int
